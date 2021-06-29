@@ -270,9 +270,9 @@ body._lock {
   display: block;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
+input[type=text],
+input[type=email],
+input[type=tel],
 textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -865,10 +865,11 @@ body.ie ._ibg img {
 .about h2 {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 25px;
+  line-height: 30px;
   color: #000000;
   margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .about__item {
@@ -878,7 +879,7 @@ body.ie ._ibg img {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  width: 47.8%;
+  width: 46%;
 }
 
 .about__item hr {
@@ -890,16 +891,16 @@ body.ie ._ibg img {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 24px;
   white-space: nowrap;
   position: relative;
 }
 
 .about__item sup {
-  font-size: 12px;
+  font-size: 7px;
   position: absolute;
-  top: -10px;
-  right: -8px;
+  top: -4px;
+  right: -4px;
 }
 
 .about__general {
@@ -912,15 +913,16 @@ body.ie ._ibg img {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 190px;
+  height: 184px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .about__price {
   font-style: normal;
   font-weight: 600;
-  font-size: 23px;
-  line-height: 33px;
+  font-size: 16px;
+  line-height: 22px;
   color: #000000;
   margin-top: auto;
 }
@@ -1131,7 +1133,7 @@ body.ie ._ibg img {
 }
 
 .plan__big {
-  height: 500px;
+  height: 405px;
 }
 
 .plan__big img,
@@ -1140,10 +1142,6 @@ body.ie ._ibg img {
      object-fit: contain;
   height: 100%;
   width: 100%;
-}
-
-.plan__floor {
-  height: 370px;
 }
 
 .plan__floor img,
@@ -1155,11 +1153,12 @@ body.ie ._ibg img {
 }
 
 .plan__floor--upper {
-  height: 310px;
+  height: 245px;
+  margin-bottom: 40px;
 }
 
 .plan__floor--lower {
-  height: 220px;
+  height: 180px;
 }
 
 .plan__pictures--left {
@@ -1190,17 +1189,17 @@ body.ie ._ibg img {
   background-image: url("../img/header.jpg"); }
 
 .header {
-  min-height: 200px;
+  min-height: 220px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
 .header h1 {
-  padding-top: 65px;
+  padding-top: 75px;
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 20px;
   color: #FFFFFF;
 }
@@ -1208,10 +1207,10 @@ body.ie ._ibg img {
 .header p {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 20px;
+  font-size: 21px;
+  line-height: 15px;
   color: #FFFFFF;
-  margin: 0 0 0 22px;
+  margin: 0 0 0 10px;
 }
 
 .header__subtitle {
@@ -1272,9 +1271,9 @@ body.ie ._ibg img {
 */
 
 .footer__logo {
-  width: 170px;
-  height: 112px;
-  margin-right: 2%;
+  width: 85px;
+  height: 50px;
+  margin-right: 15px;
 }
 
 .footer__logo img {
@@ -1288,39 +1287,42 @@ body.ie ._ibg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 0;
+  padding: 25px 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__address {
-  margin-right: 3.5%;
+  margin-right: 20px;
   position: relative;
 }
 
 .footer__address p {
   font-style: normal;
   font-weight: 600;
-  font-size: 23px;
-  line-height: 33px;
+  font-size: 16px;
+  line-height: 22px;
   color: #000000;
 }
 
 .footer__address span {
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
-  line-height: 33px;
+  font-size: 16px;
+  line-height: 22px;
   color: #000000;
 }
 
 .footer__address:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
-  height: 60px;
-  left: -10px;
+  height: 42px;
+  left: -20px;
   width: 1px;
   background-color: #727272;
 }
@@ -1329,7 +1331,7 @@ body.ie ._ibg img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 39%;
+  width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1338,8 +1340,8 @@ body.ie ._ibg img {
 .footer__contacts a {
   font-style: normal;
   font-weight: 300;
-  font-size: 23px;
-  line-height: 33px;
+  font-size: 16px;
+  line-height: 22px;
   color: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1350,14 +1352,12 @@ body.ie ._ibg img {
   white-space: nowrap;
 }
 
-.footer__contacts svg {
-  margin-right: 15px;
+.footer__contacts a:first-of-type {
+  margin-right: 20px;
 }
 
-.page {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+.footer__contacts svg {
+  margin-right: 8px;
 }
 
 h2 {
