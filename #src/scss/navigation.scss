@@ -1,0 +1,28 @@
+.navigation {
+    background-color: $color-light-brown;
+    min-height: 86px;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__item {
+    margin-right: 70px;
+    padding: 32px 0;
+    a {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #5F5F5F;
+        transition: $transition-settings;
+        &:hover {
+            transition: $transition-settings;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 21px;
+            color: #AE8A79
+        }
+    }
+}

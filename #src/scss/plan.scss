@@ -1,0 +1,48 @@
+.plan__inner {
+    display: flex;
+    border: 1px dashed #727272;
+    border-radius: 5px;
+    // min-height: 1797px;
+}
+
+.plan__big {
+    height: 500px;
+    img,
+    picture {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.plan__floor {
+    height: 370px;
+    img,
+    picture {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+    &--upper {
+        height: 310px;
+    }
+    &--lower {
+        height: 220px;
+    }
+}
+
+.plan__pictures {
+    &--left {
+        width: 52%;
+        border-right: 1px dashed #727272;
+        padding: 20px;
+    }
+    &--right {
+        width: 48%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
