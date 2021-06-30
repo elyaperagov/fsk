@@ -1,25 +1,22 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "MuseoSansCyrl700";
-  src: url("../fonts/MuseoSansCyrl700/MuseoSansCyrl700.eot");
-  src: url("../fonts/MuseoSansCyrl700/MuseoSansCyrl700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl700/MuseoSansCyrl700.woff") format("woff"), url("../fonts/MuseoSansCyrl700/MuseoSansCyrl700.ttf") format("truetype");
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/MuseoSansCyrl700.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "MuseoSansCyrl500";
-  src: url("../fonts/MuseoSansCyrl500/MuseoSansCyrl500.eot");
-  src: url("../fonts/MuseoSansCyrl500/MuseoSansCyrl500.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl500/MuseoSansCyrl500.woff") format("woff"), url("../fonts/MuseoSansCyrl500/MuseoSansCyrl500.ttf") format("truetype");
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/MuseoSansCyrl500.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "MuseoSansCyrl300";
-  src: url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.eot");
-  src: url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.woff") format("woff"), url("../fonts/MuseoSansCyrl300/MuseoSansCyrl300.ttf") format("truetype");
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/MuseoSansCyrl300.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
 }
@@ -270,9 +267,9 @@ body._lock {
   display: block;
 }
 
-input[type=text],
-input[type=email],
-input[type=tel],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
 textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1319,7 +1316,7 @@ body.ie ._ibg img {
 
 .footer__address:after {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   height: 42px;
   left: -20px;
@@ -1361,7 +1358,7 @@ body.ie ._ibg img {
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Museo Sans Cyrl", sans-serif;
   margin-top: 0;
   font-style: normal;
   font-weight: bold;
@@ -1370,7 +1367,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Museo Sans Cyrl", sans-serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 130%;
@@ -1378,7 +1375,7 @@ h3 {
 }
 
 h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Museo Sans Cyrl", sans-serif;
   font-weight: 800;
   font-size: 20px;
   line-height: 130%;
